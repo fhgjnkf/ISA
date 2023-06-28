@@ -1,0 +1,71 @@
+body {
+    background-color:#41B3a3;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    padding: 100px;
+    background-color: rgb(62, 81, 89);
+    text-align: center;
+  }
+
+  button {
+    margin-top: auto;
+    color: #FFF;
+    margin: 0;
+    background-color: #208376;
+    border: 2px solid rgba(255, 255, 255, 0);
+    position: relative;
+    border-radius: 0px;
+    padding: 1.5em 3em;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 1em;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 1em;
+  }
+
+  .options button:hover,
+  button:active {
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  .options {
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+  }
+  
+  .options button {
+    padding: 20px;
+    border: 0;
+    color: white;
+    font-size: 30px;
+    background-color: #208376;
+    border-radius: 7px;
+    margin-left: 20px;
+  }
+  .message {
+    font-size: 180px;
+    margin: 20px;
+  }
+  
+  .postscript .left {
+    float: left;
+  }
+  
+  .postscript .right {
+    float: right;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
